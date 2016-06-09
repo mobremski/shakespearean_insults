@@ -1,0 +1,38 @@
+body {
+  background-color: #30003E;
+  color: white;
+  font-family: monospace;
+  font-size: 1.5em;
+  padding-left: 20px;
+}
+h1 {
+  font-family: monospace;
+  background-color: #30003E;
+  padding-left: 20px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+h2 {
+  font-family: monospace;
+}
+.text{
+  margin-top: 100px;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 37px;
+}
+#play {
+  border-top: 1px solid white;
+  margin-top: 20px;
+}
+.image-field {
+  margin-top: 100px;
+  margin-right: 150px;
+}
+.new-insult {
+  margin-top: 15px;
+}
+#link {
+  color: white;
+  text-decoration: none;
+}

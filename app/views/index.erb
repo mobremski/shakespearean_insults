@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shakespeare's Sonnets</title>
+    <link rel="stylesheet" href="/css/foundation.min.css" media="screen" title="no title" charset="utf-8" >
+    <link rel="stylesheet" href="/css/home.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1 style="z-index: 10; position: fixed; left: 0; top: 10; height: 70px;">Randomized Shakespearean Insults</h1>
+    <div class="text column small-6">
+      <h2><%=@insult.insult%></h1>
+      <p id="play"><%=@insult.play%></p>
+    </div>
+    <div class="image-field column small-3" style="z-index: 10; position: fixed; right: 0; top: 0; height: 83px;">
+      <img src="http://localhost:4567/shakespeare-barry-novis.jpg" style="width:228px;height:228px;"/>
+      <div class="new-insult">
+      <a id="link" href="/shakespeare/insults/<%=@insult_rand%>">Get insult</a>
+      </div>
+    </div>
+  </body>
+</html>
